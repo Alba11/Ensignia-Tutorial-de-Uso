@@ -1,33 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Ensignia tutorial de uso by Alba11</title>
+    <meta name="viewport" content="width=640">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Ensignia tutorial de uso by Alba11</title>
   </head>
+
   <body>
-    <div class="wrapper">
+    <a id="forkme_banner" href="https://github.com/Alba11/Ensignia-Tutorial-de-Uso">View on GitHub</a>
+    <div class="shell">
+
       <header>
-        <h1>Ensignia tutorial de uso</h1>
-        <p> Cambio de contraseña  y Auto Responder</p>
-
-        <p class="view"><a href="https://github.com/Alba11/Ensignia-Tutorial-de-Uso">View the Project on GitHub <small>Alba11/Ensignia-Tutorial-de-Uso</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/Alba11/Ensignia-Tutorial-de-Uso/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Alba11/Ensignia-Tutorial-de-Uso/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Alba11/Ensignia-Tutorial-de-Uso">View On <strong>GitHub</strong></a></li>
-        </ul>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Ensignia tutorial de uso</h1>
+            <h2> Cambio de contraseña  y Auto Responder</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
       </header>
-      <section>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/Alba11/Ensignia-Tutorial-de-Uso/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/Alba11/Ensignia-Tutorial-de-Uso/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
         <h1>
 <a name="ensignia-cambio-de-contrase%C3%B1a" class="anchor" href="#ensignia-cambio-de-contrase%C3%B1a"><span class="octicon octicon-link"></span></a><em>Ensignia Cambio de contraseña</em>
 </h1>
@@ -54,12 +72,21 @@ Luego de seleccionar Cambio de contraseña colocamos el password actual, luego c
 <p>Para activar este herramienta colocamos nuestro saludo o título del mensaje, y luego procedemos a escribir nuestro mensaje. El mensaje es la respuesta que nuestro cliente va a recibir al momento de comunicarse con nosotros.
 Elegimos la fecha en que debe empezar a responder automáticamente, y le damos click a submit, o aceptar.</p>
       </section>
+
       <footer>
-        <p>This project is maintained by <a href="https://github.com/Alba11">Alba11</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/Alba11">Alba11</a> can be found on <a href="https://github.com/Alba11/Ensignia-Tutorial-de-Uso">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
   </body>
 </html>
